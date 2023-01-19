@@ -1,13 +1,13 @@
 .App {
   min-height: 100vh;
   background-size: cover;
-  background-position:center ;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container{
+.container {
   min-width: 50%;
   min-height: 300px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -16,15 +16,15 @@
   position: relative;
 }
 
-.countdown-container{
+.countdown-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 200px;
-  gap:2rem;
+  gap: 2rem;
 }
 
-.container-message{
+.container-message {
   display: flex;
   justify-content: center;
   position: absolute;
@@ -33,22 +33,19 @@
   right: 40%;
   align-items: center;
 }
-.message-span{
-  color:#f00;
+.message-span {
+  color: #f00;
   font-weight: bold;
   font-size: 17px;
   margin-left: 5px;
 }
-.message{
+.message {
   font-size: 12px;
 }
 
-
-.icons{
+.icons {
   font-size: 18px;
 }
 
-@media (max-width: 600px)
-{
-
+@media (max-width: 600px) {
 }
