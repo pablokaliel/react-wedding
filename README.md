@@ -1,4 +1,4 @@
-#React-Wedding
+# React-Wedding
 
 O desafio é construir esta página de contagem regressiva com um contador para o dia 22-07-2023.
 
