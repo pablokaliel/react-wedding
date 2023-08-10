@@ -13,12 +13,12 @@ import {
 } from "./styles";
 
 function App() {
-  const [day, hour, minute, second] = useCountdown("Jul 22, 2023 09:00");
+  const [day, hour, minute, second] = useCountdown("Aug 31, 2023 07:00");
 
   return (
     <AppContainer>
       <Container>
-        <Title title="Contagem regressiva para nosso casamento:" />
+        <Title title="Contagem regressiva para seu aniversário:" />
         <CountDownContainer>
           <Counter title="Dias" number={day} />
           <Counter title="Horas" number={hour} />

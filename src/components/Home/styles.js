@@ -20,7 +20,7 @@ export const AppContainer = styled.div`
     height: 100%;
     margin: 0 auto;
   
-    border-radius: 1rem;
+
   }
 `;
 
@@ -36,6 +36,8 @@ export const Container = styled.div`
   @media (max-width: 600px) {
     width: 100%;
     height: 100%;
+
+    padding:1rem;
   }
 `;
 
@@ -49,13 +51,12 @@ export const CountDownContainer = styled.div`
   
   @media (max-width: 600px) {
     display: flex;
-    flex-direction: column;
+
     justify-content: flex-start;
-  
     width: 100%;
-    height: 100%;
-  
-    margin-top: 90px;
+    gap: 0.6rem;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
@@ -69,6 +70,11 @@ export const ContainerMessage = styled.div`
   
   width: 100%;
 
+  @media (max-width: 600px) {
+    width:initial;
+    left:130px;
+  }
+
   span {
     color: #f00;
     font-weight: bold;
@@ -78,6 +84,8 @@ export const ContainerMessage = styled.div`
   .icons {
     font-size: 18px;
   }
+
+  
 `;
 
 export const Message = styled.span`
